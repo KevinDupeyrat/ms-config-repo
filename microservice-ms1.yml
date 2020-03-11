@@ -3,6 +3,8 @@ spring:
     mongodb:
       uri: mongodb://localhost/test
 
-
 server:
   port: 9001
+  
+#Eureka
+eureka.client.serviceUrl.defaultZone: http://localhost:9102/eureka/
